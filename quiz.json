@@ -1,0 +1,650 @@
+{
+  "topic": "Circulatory System",
+  "subtopics": [
+    {
+      "subtopic": "Anatomy of the Heart",
+      "questions": [
+        {
+          "question_text": "Which of the following is the largest chamber of the human heart?",
+          "answers": [
+            {
+              "answer_text": "Left Atrium",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Right Ventricle",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Left Ventricle",
+              "is_correct": true,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Right Atrium",
+              "is_correct": false,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "question_text": "What is the function of the septum in the heart?",
+          "answers": [
+            {
+              "answer_text": "To pump deoxygenated blood to the lungs",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "To separate the two ventricles",
+              "is_correct": true,
+              "explanation": ""
+            },
+            {
+              "answer_text": "To carry oxygenated blood to the body",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "To create a barrier between the two atria",
+              "is_correct": true,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "question_text": "Which part of the heart generates an electrical signal that initiates each heartbeat?",
+          "answers": [
+            {
+              "answer_text": "Pulmonary vein",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Aortic valve",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Sinoatrial node",
+              "is_correct": true,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Mitral valve",
+              "is_correct": false,
+              "explanation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Blood Circulation",
+      "questions": [
+        {
+          "question_text": "Which of the following is responsible for pumping blood throughout the body in vertebrates?",
+          "answers": [
+            {
+              "answer_text": "Heart",
+              "is_correct": true,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Lungs",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Liver",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Kidneys",
+              "is_correct": false,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "question_text": "What is the role of the venous system in blood circulation?",
+          "answers": [
+            {
+              "answer_text": "To carry oxygen-rich blood to the organs",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "To carry oxygen-depleted blood away from the organs",
+              "is_correct": true,
+              "explanation": ""
+            },
+            {
+              "answer_text": "To filter the blood",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "To produce red blood cells",
+              "is_correct": false,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "question_text": "Which of the following structures is found only in the veins?",
+          "answers": [
+            {
+              "answer_text": "Valves",
+              "is_correct": true,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Arterial walls",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Capillary walls",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Venous sinuses",
+              "is_correct": false,
+              "explanation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Blood Vessels and Their Functions",
+      "questions": [
+        {
+          "question_text": "Which of the following blood vessels carries deoxygenated blood away from the heart?",
+          "answers": [
+            {
+              "answer_text": "Aorta",
+              "is_correct": false,
+              "explanation": "The Aorta carries oxygenated blood to the body."
+            },
+            {
+              "answer_text": "Vena Cava",
+              "is_correct": false,
+              "explanation": "The Vena Cava carries deoxygenated blood to the heart."
+            },
+            {
+              "answer_text": "Pulmonary Artery",
+              "is_correct": false,
+              "explanation": "The Pulmonary Artery carries oxygenated blood to the lungs."
+            },
+            {
+              "answer_text": "Pulmonary Vein",
+              "is_correct": false,
+              "explanation": "The Pulmonary Vein carries deoxygenated blood from the lungs to the heart."
+            },
+            {
+              "answer_text": "What carries deoxygenated blood away from the heart?",
+              "is_correct": false,
+              "explanation": "This question is a repetition of the question text."
+            }
+          ]
+        },
+        {
+          "question_text": "Which type of blood vessel has a muscle layer and elastic tissue?",
+          "answers": [
+            {
+              "answer_text": "Artery",
+              "is_correct": true,
+              "explanation": "Arteries have a muscle and elastic layer."
+            },
+            {
+              "answer_text": "Vein",
+              "is_correct": false,
+              "explanation": "Veins do not have an elastic layer."
+            },
+            {
+              "answer_text": "Capillary",
+              "is_correct": false,
+              "explanation": "Capillaries do not have muscle or elastic layers."
+            },
+            {
+              "answer_text": "Sinusoid",
+              "is_correct": false,
+              "explanation": "Sinusoids are found in the liver and spleen, and they have a large endothelium filled with interstitial fluid, rather than a muscle or elastic layer."
+            }
+          ]
+        },
+        {
+          "question_text": "Which of the following is NOT a function of blood vessels?",
+          "answers": [
+            {
+              "answer_text": "Regulating blood pressure",
+              "is_correct": false,
+              "explanation": "Regulating blood pressure is a function of blood vessels."
+            },
+            {
+              "answer_text": "Transport of nutrients and waste products",
+              "is_correct": false,
+              "explanation": "Transport of nutrients and waste products is a function of blood vessels."
+            },
+            {
+              "answer_text": "Maintaining body temperature",
+              "is_correct": false,
+              "explanation": "Maintaining body temperature is partially a function of blood vessels."
+            },
+            {
+              "answer_text": "Exerting mechanical force on organs",
+              "is_correct": true,
+              "explanation": "Blood vessels do not exert mechanical force on organs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Blood Pressure Regulation",
+      "questions": [
+        {
+          "question_text": "Which of the following is a major factor in maintaining blood pressure within normal limits?",
+          "answers": [
+            {
+              "answer_text": "A. Decreased production of atrial natriuretic peptide (ANP)",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "B. Increased production of angiotensin II",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "C. Increased secretion of epinephrine",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "D. Increased secretion of vasodilators, such as nitric oxide, from the endothelium",
+              "is_correct": true,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "question_text": "Which organ is primarily responsible for modifying the blood pressure in response to changes in the body's needs?",
+          "answers": [
+            {
+              "answer_text": "A. Heart",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "B. Liver",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "C. Kidneys",
+              "is_correct": true,
+              "explanation": ""
+            },
+            {
+              "answer_text": "D. Lungs",
+              "is_correct": false,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "question_text": "The autonomic nervous system helps to regulate blood pressure by affecting the contraction of what part of the artery walls?",
+          "answers": [
+            {
+              "answer_text": "A. The ventricles of the heart",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "B. The smooth muscles in the walls of the veins",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "C. The smooth muscles in the walls of the arteries",
+              "is_correct": true,
+              "explanation": ""
+            },
+            {
+              "answer_text": "D. The atria of the heart",
+              "is_correct": false,
+              "explanation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Cardiac Cycle and Conduction System",
+      "questions": [
+        {
+          "question_text": "Which part of the heart initiates the cardiac cycle by depolarizing the atria and ventricles?",
+          "answers": [
+            {
+              "answer_text": "Sinoatrial Node",
+              "is_correct": true,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Atrioventricular Node",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Bundle of His",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Pacemaker",
+              "is_correct": false,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "question_text": "Which of the following structures is NOT part of the conduction system of the heart?",
+          "answers": [
+            {
+              "answer_text": "Purkinje Fibers",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Sinoatrial Node",
+              "is_correct": true,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Atrioventricular Node",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": " bundle of His",
+              "is_correct": true,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "question_text": "During diastole, which of the following occurs?",
+          "answers": [
+            {
+              "answer_text": "Atria contract, ventricles relax",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Atria and ventricles contract simultaneously",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Ventricles contract, atria relax",
+              "is_correct": true,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Both atria and ventricles are in a state of permanent contraction",
+              "is_correct": false,
+              "explanation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Hemodynamics",
+      "questions": [
+        {
+          "question_text": "What is the primary function of the left ventricle in the heart?",
+          "answers": [
+            {
+              "answer_text": "To create and regulate blood pressure",
+              "is_correct": true,
+              "explanation": ""
+            },
+            {
+              "answer_text": "To pump oxygen-rich blood to the lungs",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "To pump oxygen-poor blood to the body",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "To store blood inside the heart",
+              "is_correct": false,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "question_text": "Which of the following statements about blood flow through the heart is incorrect?",
+          "answers": [
+            {
+              "answer_text": "Deoxygenated blood enters the right atrium from the body",
+              "is_correct": true,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Oxygenated blood leaves the left ventricle and travels to the body",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "The left atrium receives oxygenated blood from the lungs",
+              "is_correct": true,
+              "explanation": ""
+            },
+            {
+              "answer_text": "The right ventricle pumps blood into the aorta",
+              "is_correct": false,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "question_text": "Which of the following describes the function of the capillaries?",
+          "answers": [
+            {
+              "answer_text": "To allow for the exchange of oxygen and carbon dioxide",
+              "is_correct": true,
+              "explanation": ""
+            },
+            {
+              "answer_text": "To deliver nutrients and oxygen to the cells",
+              "is_correct": true,
+              "explanation": ""
+            },
+            {
+              "answer_text": "To filter the blood",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "To store blood",
+              "is_correct": false,
+              "explanation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Common Circulatory Diseases",
+      "questions": [
+        {
+          "question_text": "Which of the following NOT a common circulatory disease?",
+          "answers": [
+            {
+              "answer_text": "Heart Disease",
+              "is_correct": false,
+              "explanation": "Heart disease is the leading global cause of death and is indeed a common circulatory disease. (Corrected incorrect answer)"
+            },
+            {
+              "answer_text": "High Blood Pressure (Hypertension)",
+              "is_correct": true,
+              "explanation": "Hypertension is NOT a common circulatory disease (Corrected correct answer)"
+            },
+            {
+              "answer_text": "Diabetes",
+              "is_correct": false,
+              "explanation": "While diabetes can lead to complications in the circulatory system, it is NOT itself a common circulatory disease."
+            },
+            {
+              "answer_text": "Beginning Aneurysm",
+              "is_correct": true,
+              "explanation": "A beginning aneurysm is a potential circulatory issue, but IT IS NOT a common circulatory disease (Corrected correct answer)"
+            }
+          ]
+        },
+        {
+          "question_text": "Which of these medications is NOT often used to treat high blood pressure?",
+          "answers": [
+            {
+              "answer_text": "Beta Blockers",
+              "is_correct": false,
+              "explanation": "Beta blockers ARE common medication used for treating high blood pressure. (Corrected incorrect answer)"
+            },
+            {
+              "answer_text": "Diuretics",
+              "is_correct": true,
+              "explanation": "Diuretics are NOT primarily used to treat high blood pressure (Corrected correct answer)"
+            },
+            {
+              "answer_text": "ACE inhibitors",
+              "is_correct": false,
+              "explanation": "ACE inhibitors ARE a class of medications used to help lower blood pressure."
+            },
+            {
+              "answer_text": "Calcium Channel Blockers",
+              "is_correct": false,
+              "explanation": "Calcium channel blockers ARE a common medication used for the treatment of high blood pressure. (Corrected incorrect answer)"
+            }
+          ]
+        },
+        {
+          "question_text": "Which statement about Heart Failure is NOT true?",
+          "answers": [
+            {
+              "answer_text": "Heart failure occurs when the heart's pumping action is weakened.",
+              "is_correct": true,
+              "explanation": "This is indeed true."
+            },
+            {
+              "answer_text": "Heart failure cannot be managed, and it is always fatal.",
+              "is_correct": false,
+              "explanation": "While heart failure can be serious and chronic, it can BE managed effectively with various treatments."
+            },
+            {
+              "answer_text": "Classic signs of heart failure include fatigue, shortness of breath, and ankles swelling.",
+              "is_correct": true,
+              "explanation": "These symptoms are indeed classic signs of heart failure."
+            },
+            {
+              "answer_text": "Aspirin can help prevent heart failure.",
+              "is_correct": false,
+              "explanation": "While aspirin can help reduce the risk of heart attack and stroke, it does NOT help prevent heart failure."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopic": "Role of the Circulatory System in Nutrient Transport",
+      "questions": [
+        {
+          "question_text": "Which of the following is the primary function of the circulatory system in nutrient transportation?",
+          "answers": [
+            {
+              "answer_text": "Removal of waste products from cells",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Regulation of body temperature",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Production of energy within cells",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Transportation of nutrients, gases, and waste products throughout the body",
+              "is_correct": true,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "question_text": "What is the primary location where most nutrient absorption occurs in the body?",
+          "answers": [
+            {
+              "answer_text": "Liver",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Small intestine",
+              "is_correct": true,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Kidney",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Heart",
+              "is_correct": false,
+              "explanation": ""
+            }
+          ]
+        },
+        {
+          "question_text": "Which of the following is an example of materials transported in the blood by the circulatory system that are crucial for the formation of new tissue?",
+          "answers": [
+            {
+              "answer_text": "Urea",
+              "is_correct": false,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Oxygen",
+              "is_correct": true,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Glucose",
+              "is_correct": true,
+              "explanation": ""
+            },
+            {
+              "answer_text": "Carbon dioxide",
+              "is_correct": false,
+              "explanation": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
