@@ -86,3 +86,36 @@ def extract_youtube_transcript(video_url: str) -> str:
         return "\n".join([entry["text"] for entry in transcript])
     except Exception as e:
         return f"Transcript not available. Error: {str(e)}"
+
+
+
+def get_book_data(code, folder_path="content_materials/"):
+    """
+    Finds the most recent text file in the folder whose name starts with the given code followed by '_'
+    and returns its content.
+    
+    :param code: The code to match at the beginning of the filename.
+    :param folder_path: The path to the folder containing text files.
+    :return: The content of the matched text file or an error message.
+    """
+    if not os.path.exists(folder_path):
+        return "Folder does not exist."
+
+    # List all text files that start with 'code_'
+    matching_files = [
+        f for f in os.listdir(folder_path) 
+        if f.startswith(f"{code}_") and f.endswith(".txt")
+    ]
+
+    if not matching_files:
+        return f"No matching files found for code: {code}"
+
+    # Sort by creation time (newest first)
+    matching_files.sort(key=lambda x: os.path.getctime(os.path.join(folder_path, x)), reverse=True)
+
+    latest_file = os.path.join(folder_path, matching_files[0])
+
+    # Read and return the content of the latest matching file
+    with open(latest_file, "r", encoding="utf-8") as file:
+        return file.read()
+

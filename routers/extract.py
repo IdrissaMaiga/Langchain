@@ -77,3 +77,6 @@ async def extract_url(url: str):
 async def extract_youtube_transcript_route(video_url: str):
     transcript = extract_youtube_transcript(video_url)
     return {"source": video_url, "type": "youtube", "extracted_text": transcript}
+
+
+

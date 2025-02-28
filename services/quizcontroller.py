@@ -9,6 +9,7 @@ from pydantic import BaseModel, Field
 from types import SimpleNamespace
 from dotenv import load_dotenv
 from sumirize import generate_summaries
+from services.text_extraction import get_book_data
 # Initialize Hugging Face client
 load_dotenv()
 TOKEN = os.getenv("HF_TOKEN") 
@@ -235,7 +236,7 @@ def extract_json_from_text(text):
     return {"questions": []}
 
 # --- Step 4: Combine Everything into a Final Quiz Object ---
-def generate_quiz(topicdata: str, num_questions_per_subtopic: int = 2, extradata: str = ""):
+def generate_quiz(topicdata: str, num_questions_per_subtopic: int = 2,code=""):
     print(f"Generating quiz for topic: {topicdata}")
     
     # Get subtopics
@@ -243,7 +244,9 @@ def generate_quiz(topicdata: str, num_questions_per_subtopic: int = 2, extradata
     topic = namespace_obj.topic
     subtopics = namespace_obj.subtopics
     topic_structure = convert_to_dict(namespace_obj)
-    result = generate_summaries("book", topic_structure)
+    book_content = get_book_data(code)
+
+    summarize = generate_summaries(book_content, topic_structure)
 
     print(f"Generated {len(subtopics)} subtopics: {subtopics}")
     
@@ -253,7 +256,7 @@ def generate_quiz(topicdata: str, num_questions_per_subtopic: int = 2, extradata
         print(f"Generating questions for subtopic: {subtopic}")
         
         # Generate and validate questions - now passing extradata to the function
-        raw_questions = generate_questions(subtopic+"on this topic"+topic, num_questions_per_subtopic, extradata)
+        raw_questions = generate_questions(subtopic+"on this topic"+topic, num_questions_per_subtopic, extradata=summarize['subtopics'][subtopic])
         print(f"Generated raw questions for {subtopic}")
         
         validated_questions = validate_questions(raw_questions)
