@@ -19,7 +19,7 @@ if not api_key:
     raise ValueError("API key for Gemini not found. Set the GEMINI_API_KEY environment variable.")
 
 # Replace Tesseract with Gemini for OCR
-def extract_text_from_image_bytes(image_bytes: bytes) -> str:
+def extract_text_from_image_bytes(image_bytes: bytes ,code) -> str:
     # Initialize Gemini client with the loaded API key
     client = genai.Client(api_key=api_key)
 
@@ -39,17 +39,17 @@ def extract_text_from_image_bytes(image_bytes: bytes) -> str:
         return "No text extracted from the image."
 
 # Extract text from PDFs
-def extract_text_from_pdf_bytes(pdf_bytes: bytes) -> str:
+def extract_text_from_pdf_bytes(pdf_bytes: bytes,code) -> str:
     doc = pymupdf.open(stream=pdf_bytes, filetype="pdf")
     return "\n".join(page.get_text() for page in doc)
 
 # Extract text from Word documents (.docx)
-def extract_text_from_docx_bytes(docx_bytes: bytes) -> str:
+def extract_text_from_docx_bytes(docx_bytes: bytes,code) -> str:
     doc = Document(BytesIO(docx_bytes))
     return "\n".join(para.text for para in doc.paragraphs)
 
 # Extract text from PowerPoint files (.pptx)
-def extract_text_from_pptx_bytes(pptx_bytes: bytes) -> str:
+def extract_text_from_pptx_bytes(pptx_bytes: bytes,code) -> str:
     presentation = Presentation(BytesIO(pptx_bytes))
     text = []
     for slide in presentation.slides:
@@ -59,7 +59,7 @@ def extract_text_from_pptx_bytes(pptx_bytes: bytes) -> str:
     return "\n".join(text)
 
 # Extract text from plain text (.txt)
-def extract_text_from_txt_bytes(txt_bytes: bytes) -> str:
+def extract_text_from_txt_bytes(txt_bytes: bytes,code) -> str:
     return txt_bytes.decode("utf-8")
 
 # Extract text from a webpage (web scraping)
@@ -71,7 +71,7 @@ def extract_text_from_url(url: str) -> str:
     return "Failed to extract text"
 
 # Extract YouTube transcript
-def extract_youtube_transcript(video_url: str) -> str:
+def extract_youtube_transcript(video_url: str,code) -> str:
     # Regular expression to extract video ID from various types of YouTube links
     video_id_match = re.search(r"v=([a-zA-Z0-9_-]+)", video_url)
     
